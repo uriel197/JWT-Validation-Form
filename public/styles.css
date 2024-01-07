@@ -17,6 +17,8 @@ html {
   --primary-300: #a29dff;
   --primary-400: #837dff;
   --primary-500: #645cff;
+  --primary-550: #246d49;
+  --primary-555: #2b9460;
   --primary-600: #504acc;
   --primary-700: #3c3799;
   --primary-800: #282566;
@@ -135,7 +137,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: var(--primary-550);
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -146,7 +148,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primary-700);
+  background: var(--primary-555);
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
